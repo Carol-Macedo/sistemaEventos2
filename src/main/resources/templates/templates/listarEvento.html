@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1></h1>
+
+<div>
+    <div>
+        <p><strong>Nome:</strong> <span th:text="${evento.nome}"></span></p>
+        <p>Tipo: <span th:text="${evento.tipo}"></span></p>
+        <p>Data: <span th:text="${evento.data}"></span></p>
+        <p>Inicio:<span th:text="${evento.horaInicio}"></span></p>
+        <p>Fim:<span th:text="${evento.horaFim}"></span></p>
+        <p>
+            Rua: <span th:text="${evento.rua}">, </span>
+            Estado: <span th:text="${evento.estado}">, </span>
+            Pais: <span th:text="${evento.pais}">, </span>
+            Bairro: <span th:text="${evento.bairro}">, </span>
+        </p>
+        <hr>
+    </div>
+</div>
+</body>
+</html>
